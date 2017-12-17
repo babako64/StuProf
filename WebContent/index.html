@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.center {
+	margin: auto;
+	text-align: center;
+    width: 20%;
+    border: 3px solid #73AD21;
+    padding: 70px;
+}
+h1 {
+    color: blue;
+    font-family: verdana;
+    font-size: 150%;
+}
+</style>
+<meta charset="ISO-8859-1">
+<title>University</title>
+</head>
+<div class="center">
+<form method="get" action="http://localhost:8080/HW6-stuprof/servlet">
+<h1>Student Form</h1>
+  Name:<br>
+  <input type="text" name="name" value="">
+  <br>
+  Id:<br>
+  <input type="text" name="id" value="">
+  <br>
+  Department:<br>
+  <input type="text" name="department" value="">
+  <br>
+  Supervisor Id:<br>
+  <input type="text" name="supid" value="">
+  <br>
+  <br><br>
+  <input type="submit" value="add" name="button">
+  <input type="submit" value="remove" name="button">
+  <input type="submit" value="update" name="button">
+  <input type="submit" value="load" name="button">
+</form> 
+
+<form method="get" action="http://localhost:8080/HW6-stuprof/servlet">
+<h1>Teacher Form</h1>
+  Name:<br>
+  <input type="text" name="tname" value="">
+  <br>
+  Id:<br>
+  <input type="text" name="tid" value="">
+  <br>
+  Address:<br>
+  <input type="text" name="address" value="">
+  <br>
+  <br><br>
+  <input type="submit" value="add" name="tbutton">
+  <input type="submit" value="remove" name="tbutton">
+  <input type="submit" value="update" name="tbutton">
+  <input type="submit" value="load" name="tbutton">
+</form> 
+</div>
+<body>
+
+</body>
+</html>
